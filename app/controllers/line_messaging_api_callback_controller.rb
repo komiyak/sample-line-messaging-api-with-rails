@@ -1,5 +1,5 @@
 class LineMessagingApiCallbackController < ApplicationController
   def index
-    render json: { code: 'ok' }
+    head :ok
   end
 end
